@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Go Sleep</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #282c34;
+            color: white;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            height: 100vh;
+        }
+        h1 {
+            font-size: 3rem;
+            margin: 0.5em 0;
+        }
+        p {
+            font-size: 1.5rem;
+        }
+        .sleep-button {
+            padding: 1em 2em;
+            font-size: 1.5rem;
+            color: #282c34;
+            background-color: #61dafb;
+            border: none;
+            border-radius: 0.5em;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .sleep-button:hover {
+            background-color: #21a1f1;
+        }
+    </style>
+</head>
+<body>
+    <h1>It's Time to Go to Sleep!</h1>
+    <p>For a healthier and happier you, get a good night's sleep.</p>
+    <button class="sleep-button" onclick="alert('Good night!')">Go Sleep</button>
+</body>
+</html>
